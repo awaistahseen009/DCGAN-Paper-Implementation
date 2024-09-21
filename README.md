@@ -5,7 +5,7 @@
 ## Overview
 
 This repository contains the implementation of a Deep Convolutional Generative Adversarial Network (DCGAN) for unsupervised representation learning on image data. The goal is to train a generator and discriminator using adversarial learning to generate realistic images and learn feature representations.
-
+I replicated the paper and produced very good results on **CelebA Dataset**
 The model is trained on the **CelebA dataset**, which consists of more than **200,000 images** of celebrities. This dataset is widely used for facial attribute recognition and generation tasks.
 
 ## Table of Contents
@@ -45,3 +45,15 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/DCGAN-Paper-Implementation.git
    cd DCGAN-Paper-Implementation
+   ```
+
+2. **Install the requirements.txt**
+   ```python
+   pip install -r requirements.txt
+   ```
+3. **For training the network**
+   You can just run
+   ```python
+   python main.py
+   ```
+4. 
